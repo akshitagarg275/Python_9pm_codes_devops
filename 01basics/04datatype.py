@@ -60,3 +60,58 @@ Datatypes
 # temp = None
 # print("Temp is :", temp)
 # print("Type of temp is :",type(temp))
+
+# Derived Dataypes
+# store multiple values under a single variable name
+
+'''
+( ) -> Paranthesis
+{ } -> Curly braces
+[ ] -> Square Brackets
+'''
+
+# # LIST -> [ ]
+# employees = ["John", "Rahul", "Jane", "Sam"]
+# print("Employees in company: ",employees)
+# print("Type of employees variable is: ", type(employees))
+
+
+# Tuple -> ( )
+# employees = ("John", "Rahul", "Jane", "Sam")
+# print("Employees in company: ",employees)
+# print("Type of employees variable is: ", type(employees))
+
+# Set -> { }
+# employees = {"John", "Rahul", "Jane", "Sam"}
+# print("Employees in company: ",employees)
+# print("Type of employees variable is: ", type(employees))
+
+# Dict -> {key : value}
+# stud = {
+#     "name" : "Sam",
+#     "class" : "Python",
+#     "Gender" : "M",
+#     "age" : 24
+# }
+
+# print("Details of stud: ",stud)
+# print("Type of stud: ",type(stud))
+
+
+# Range -> generates the value
+# range(start, end, step)
+# start is inclusive
+# end is exclusive
+# step is optional, by default step count is 1
+
+# values = list(range(1, 6))
+# print("Values is: ", values)
+# print("TYpe of values is :", type(values))
+
+# even = tuple(range(0, 11, 2))
+# print(even)
+# print(type(even))
+
+rev = list(range(10, 0 , -1))
+print(rev)
+print(type(rev))

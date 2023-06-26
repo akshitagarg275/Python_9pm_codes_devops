@@ -84,13 +84,113 @@ else:
 
 # WAP to find whether the given number is +ve, -ve or 0
 
-num = int(input("Enter a num: "))
+# num = int(input("Enter a num: "))
 
-if num == 0:
-    print("Zero")
-elif num > 0:
-    print("Positive")
-elif num < 0 :
-    print("Negative")
+# if num == 0:
+#     print("Zero")
+# elif num > 0:
+#     print("Positive")
+# elif num < 0 :
+#     print("Negative")
+# else:
+#     print("Enter a valid num")
+
+
+# TODO: WAP to find whether program is odd/even
+# num = int(input("Enter a number: "))
+
+# if num % 2 == 0:
+#     print("number is even")
+# else:
+#     print("Num is odd")
+
+
+# TODO: Nested if else
+'''
+if :
+    if: 
+        #if statement
+    else:
+        #else statement
 else:
-    print("Enter a valid num")
+    if:
+        #if statement
+    
+    else:
+        #else statement
+
+'''
+
+num1 = 34
+num2 = 23
+num3 = 12
+
+# if num1 >= num2:
+#     if num1 >= num3:
+#         print("Num1 is greatest: ",num1)
+#     else:
+#         print("Num3 is greatest: ",num3)
+# else:
+#     if num2 >= num3:
+#         print("Num2 is greatest: ",num2)
+#     else:
+#         print("Num3 is greatest: ",num3)
+
+
+# if num1 >= num2 and num1 >= num3:
+#     print("Num1 is greatest")
+# elif num2 >= num1 and num2 >= num3:
+#     print("Num2 is greatest")
+# elif num3 >= num2 and num3 >= num1:
+#     print("Num3 is greatest")
+
+
+
+# To login a user should use anyone method
+# isEmail = False
+# isGoogle = False
+# isFacebook = True
+
+# if isEmail:
+#     print("You are logged in")
+# elif isGoogle:
+#     print("You are logged in ")
+# elif isFacebook:
+#     print("You are logged in")
+# else:
+#     print("Please login")
+
+# TO make an online purchase
+# isLogin = True
+# isCard = True
+# isCart = True
+
+# if isLogin:
+#     if isCart:
+#         if isCard:
+#             print("Order placed successfully!")
+#         else:
+#             print("Enter valid card details")
+#     else:
+#         print("Add items in the cart")
+# else:
+#     print("Please login to place an order")
+
+
+
+# TODO: WAP to implement a grading system
+"""
+marks should not be lesser than 0 and greater than 100
+90-100 : A+
+80 - 89 : A
+"""
+
+#TODO: Rating system 1 - 5
+"""
+rating should not be lesser than 1 or greater than 5
+5 -> Amazing work
+4 -> Keep it up
+3 -> Good work
+2 -> Can do better
+1 -> Need to take care
+"""

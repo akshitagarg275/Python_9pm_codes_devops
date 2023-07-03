@@ -52,6 +52,11 @@ fruits = ["mango", "pineapple", "apple", "guava", "orange"]
 # fruits.append("grapes")
 # print("after: ", fruits)
 
+# TODO: extend -> To add more than 1 element in the list
+# fruits = ["mango", "pineapple", "apple", "guava", "orange"]
+# fruits.extend(["plum","pear"])
+# print(fruits)
+
 # TODO: dynamically a user input list
 # size = int(input("enter the size of the list: "))
 # val = []
@@ -67,8 +72,59 @@ fruits = ["mango", "pineapple", "apple", "guava", "orange"]
 # print(fruits.index("mango"))
 # print(fruits.index("orange" , 1 , 3))
 
-fruits.clear()
-print(fruits)
+# fruits.clear()
+# print(fruits)
+
+
+# TODO: index(element, start, end)
+# fruits = ["mango", "pineapple", "apple", "guava", "orange"]
+# print(fruits.index("apple"))
+
+# TODO: Will be giving error as we are searching after 3rd index
+# print(fruits.index("apple", 3))
+
+# fruits.insert( 2, "plum")
+# print(fruits)
+
+# print("BEFORE: ", fruits)
+# fruits.remove("apple")
+# print("AFTER: ", fruits)
+
+# TODO: reversing the entire list
+# print("BEFORE: ", fruits)
+# fruits.reverse()
+# print("AFTER: ", fruits)
+
+# TODO: sort 
+# print("BEFORE: ", fruits)
+# # ascending order
+# fruits.sort()
+# # TODO: descending order
+# fruits.sort(reverse=True)
+# print("AFTER: ", fruits)
+
+# print(sorted(fruits))
+# fruits = sorted(fruits)
+# print(fruits)
+
+# TODO: copy
+
+# fruits1 = fruits.copy()
+# fruits[0] = "pear"
+# print("Fruits: ", fruits)
+# print("Fruits1: ", fruits1)
+
+import copy
+
+list1 = [ 1, [2, 3] , 4 ]
+list2 = list1
+list4 = copy.deepcopy(list1)
+
+list1.append(5)
+list1[1][1] = 999
+
+print("List 1: ",list1)
+print("List 2: ",list2)
 
 
 

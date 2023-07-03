@@ -114,17 +114,21 @@ fruits = ["mango", "pineapple", "apple", "guava", "orange"]
 # print("Fruits: ", fruits)
 # print("Fruits1: ", fruits1)
 
-import copy
+# import copy
 
-list1 = [ 1, [2, 3] , 4 ]
-list2 = list1
-list4 = copy.deepcopy(list1)
+# list1 = [ 1, [2, 3] , 4 ]
+# list2 = list1
+# list4 = copy.deepcopy(list1)
 
-list1.append(5)
-list1[1][1] = 999
+# list1.append(5)
+# list1[1][1] = 999
 
-print("List 1: ",list1)
-print("List 2: ",list2)
+# print("List 1: ",list1)
+# print("List 2: ",list2)
+
+print([1,2,3] + [5,6])
+print([1,2,3] * 2)
+
 
 
 
